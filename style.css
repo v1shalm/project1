@@ -1,0 +1,172 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;800&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+h1{
+    color:#191970;
+    font-weight: 800;
+    font-size: 3rem;
+    opacity: 0.8;
+}
+h3{
+    color: #191970;
+    font-weight: 600;
+     opacity: 0.7;
+
+}
+h2{
+    color: #483D8B;
+    font-weight: 600;
+     opacity: 0.9;
+
+}
+p{
+    color: #483D8B;
+  font-weight: 300;
+    
+
+}
+main{
+    min-height: 100vh;
+     background:linear-gradient(to right top, #6A5ACD
+     ,#87CEEB );
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+.glass{
+    width: 60%;
+    min-height: 80vh;
+    background:white;
+    background: linear-gradient(to right bottom,rgba(255,255,255,0.6), rgba(255,255,255,0.3));
+    border-radius: 2rem;
+    z-index: 3;
+    backdrop-filter:blur(2rem);
+    
+    display: flex;
+
+}
+.circle1,.circle2{
+    background:white;
+    background: linear-gradient(to right bottom,rgba(255,255,255,0.8), rgba(255,255,255,0.4));
+    height: 20rem;
+    width: 20rem;
+    position: absolute;
+    border-radius: 50%;
+    
+
+}
+.circle1{
+    top: 5%;
+    left: 10%;
+
+}
+.circle2{
+    bottom: 5%;
+    right: 10%;
+
+}
+.dashboard{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    background: linear-gradient(to right bottom,rgba(255,255,255,0.6), rgba(255,255,255,0.3));
+    border-radius: 2rem;
+    
+}
+.skills{
+    flex: 2;
+}
+.link{
+    display: flex;
+    margin: 2rem 0rem;
+    padding: 1rem 5rem;
+    align-items: center;
+}
+.link h3{
+    padding: 0rem  2rem;
+}
+.work{
+    background:linear-gradient(to right top, #6A5ACD
+    ,#87CEEB );
+    border-radius: 2rem;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 20%;
+    
+}
+.work h2{
+    color: white;
+    font-weight: 700;
+}
+img#avatar{
+    border-radius: 50%;
+   
+}
+
+.status{
+    margin-bottom: 3rem;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 5rem;
+}
+.card{
+    display: flex;
+    background: linear-gradient(to right bottom,rgba(255,255,255,0.4), rgba(255,255,255,0.8));
+    border-radius: 1rem;
+    margin: 2rem 0rem;
+    padding: 2rem;
+    box-shadow: 6px 6px 20px rgba(122,122,122, 0.2);
+    justify-content: space-between;
+}
+.progress{
+    background:linear-gradient(to right top, #6A5ACD
+    ,#87CEEB );
+    width: 100%;
+    height: 25%;
+    
+    border-radius: 1rem;
+    position: relative;
+    overflow: hidden;
+
+}
+.progress::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgb(236, 236,236);
+    position: absolute;
+    left: 60%;
+}
+.card-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.percentage{
+    font-weight: bold;
+    background:linear-gradient(to right top, #6A5ACD
+    ,#87CEEB );
+    -webkit-background-clip:text;
+    -webkit-background-fil-color:transparent;
+}
